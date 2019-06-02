@@ -10,9 +10,12 @@
               <use xlink:href="#bookmark"></use>
             </svg>
             {{ .Title }}
+            {{ $dateFormat := "2006" }}
+            {{ $publishDate := .PublishDate }}
+            <small>{{ $publishDate.Format $dateFormat }}</small>
           </a>
         </h2>
-      </li>        
+      </li>
     {{ end }}
     </ul>
   </main>

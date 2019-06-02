@@ -445,7 +445,7 @@ caption {
   padding: 0.25em 0.75em;
 }
 #disqus-comments {
-  display: none; 
+  display: none;
 }
 
 /* Pattern lists */
@@ -456,6 +456,11 @@ caption {
 .patterns-list h2 {
     font-size: 1.25rem;
     line-height: 1.6;
+}
+.patterns-list h2 small {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #777 !important;
 }
 .patterns-list li + li {
     margin-top: 1rem;
